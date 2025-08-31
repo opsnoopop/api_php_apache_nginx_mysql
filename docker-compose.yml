@@ -18,7 +18,7 @@ services:
     build:
       context: .
       dockerfile: php/Dockerfile
-    image: php:8_4_fpm_alpine_custom
+    image: php:8_4_apache_custom
     container_name: container_php
     restart: always
     networks:

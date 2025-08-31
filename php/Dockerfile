@@ -1,4 +1,3 @@
-# เปลี่ยนมาใช้ Apache แทน FPM + Alpine
 FROM php:8.4-apache
 
 # ติดตั้งเครื่องมือ build สำหรับคอมไพล์ PHP extensions (ใช้ชุด $PHPIZE_DEPS)

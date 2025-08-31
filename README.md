@@ -1,18 +1,18 @@
-# NGINX Reverse Proxy PHP Apache API with MySQL
+# Nginx PHP-Apache API with MySQL
 
-A simple NGINX Reverse Proxy PHP Apache API application and MySQL, containerized with Docker.
+A simple Nginx PHP-Apache API application and MySQL, containerized with Docker.
 
 
 ## Technology Stack
 
-**PHP Container: FROM php:8.4-apache**
+**PHP-Apache Container: FROM php:8.4-apache**
 - OS Debian GNU/Linux: 13
 - PHP: 8.4.11
 - pdo
 - pdo_mysql
 - opcache
 
-**NGINX Container: FROM nginx:1.27-alpine**
+**Nginx Container: FROM nginx:1.27-alpine**
 - OS Alpine Linux: 3.21.3
 - NGINX: 1.27
 
